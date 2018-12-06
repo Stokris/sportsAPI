@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basketball API</title>
-
+    <link rel="stylesheet" href="./sports.css" type="text/css">
     
 </head>
 <body>
@@ -16,16 +16,8 @@
 
             <form>
                 <p>
-                    <label for="search">Enter a basketball team (required): </label>
+                    <label for="search">Enter a city/state and name of a basketball team to learn about their stadium (required): </label>
                     <input type="text" id="search" class="search" required>
-                </p>
-                <p>
-                    <label for="start-date">Enter a start date (YYYYMMDD): </label>
-                    <input type="date" id="start-date" class="start-date" pattern="[0-9]{8}"> 
-                </p>
-                <p>
-                    <label for="end-date">Enter an end date (YYYYMMDD): </label>
-                    <input type="date" id="end-date" class="end-date" pattern="[0-9]{8}">
                 </p>
                 <p>
                     <button class="submit">Submit</button>
@@ -35,10 +27,6 @@
 
         <div class="results">
 
-            <nav>
-                <button class="prev">Previous 10</button>
-                <button class="next">Next 10</button>
-            </nav>
 
             <section>
 
